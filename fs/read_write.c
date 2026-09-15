@@ -583,7 +583,6 @@ SYSCALL_DEFINE3(read, unsigned int, fd, char __user *, buf, size_t, count)
 	if (unlikely(ksu_vfs_read_hook)) 
 		ksu_handle_sys_read(fd, &buf, &count);
 #endif
-
 	if (f.file) {
 		loff_t pos = file_pos_read(f.file);
 		ret = vfs_read(f.file, buf, count, &pos);
