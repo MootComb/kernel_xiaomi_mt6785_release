@@ -3,9 +3,9 @@
     "kernelName": "NoVa",
     "kernelSource": {
       "device": "begonia",
-      "defconfig": "begonia_user_defconfig",
+      "defconfig": "begonia_user_ksu_defconfig",
       "name": "NoVa-kernel",
-      "repo": "https://github.com/Nova-Kernels/priv_kernel_xiaomi_mt6785",
+      "repo": "https://github.com/MootComb/kernel_xiaomi_mt6785_release",
       "branch": "main"
     },
     "withKernelSU": false,
