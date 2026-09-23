@@ -8,8 +8,8 @@
       "repo": "https://github.com/MootComb/kernel_xiaomi_mt6785_release",
       "branch": "main"
     },
-    "withKernelSU": false,
-    "withSUSFS": false,
+    "withKernelSU": true,
+    "withSUSFS": true,
     "toolchains": [
       {
         "repo": "https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r547379",
